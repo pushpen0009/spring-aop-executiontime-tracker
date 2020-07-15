@@ -9,7 +9,7 @@
 		<version>2.2.7.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.javatechie</groupId>
+	<groupId>com.mytoshika</groupId>
 	<artifactId>spring-aop-executiontime-tracker</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-aop-executiontime-tracker</name>
