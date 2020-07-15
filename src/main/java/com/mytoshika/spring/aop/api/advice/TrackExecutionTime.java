@@ -1,4 +1,4 @@
-package com.javatechie.spring.aop.api.advice;
+package com.mytoshika.spring.aop.api.advice;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

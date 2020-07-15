@@ -1,4 +1,4 @@
-package com.javatechie.spring.aop.api.model;
+package com.mytoshika.spring.aop.api.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

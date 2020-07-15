@@ -1,4 +1,4 @@
-package com.javatechie.spring.aop.api;
+package com.mytoshika.spring.aop.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

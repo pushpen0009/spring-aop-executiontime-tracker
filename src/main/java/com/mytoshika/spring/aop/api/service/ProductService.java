@@ -1,4 +1,4 @@
-package com.javatechie.spring.aop.api.service;
+package com.mytoshika.spring.aop.api.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,8 +9,8 @@ import javax.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.javatechie.spring.aop.api.advice.TrackExecutionTime;
-import com.javatechie.spring.aop.api.model.Product;
+import com.mytoshika.spring.aop.api.advice.TrackExecutionTime;
+import com.mytoshika.spring.aop.api.model.Product;
 
 @Service
 public class ProductService {

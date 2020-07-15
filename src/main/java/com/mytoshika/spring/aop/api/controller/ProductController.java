@@ -1,4 +1,4 @@
-package com.javatechie.spring.aop.api.controller;
+package com.mytoshika.spring.aop.api.controller;
 
 import java.util.List;
 
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.javatechie.spring.aop.api.model.Product;
-import com.javatechie.spring.aop.api.service.ProductService;
+import com.mytoshika.spring.aop.api.model.Product;
+import com.mytoshika.spring.aop.api.service.ProductService;
 
 @RestController
 public class ProductController {

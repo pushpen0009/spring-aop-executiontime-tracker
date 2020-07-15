@@ -1,4 +1,4 @@
-package com.javatechie.spring.aop.api.advice;
+package com.mytoshika.spring.aop.api.advice;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
