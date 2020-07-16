@@ -13,7 +13,7 @@ public class ExecutionTimeTrackerAdvice {
 	
 	Logger logger=LoggerFactory.getLogger(ExecutionTimeTrackerAdvice.class);
 	
-	@Around("@annotation(com.javatechie.spring.aop.api.advice.TrackExecutionTime)")
+	@Around("@annotation(com.mytoshika.spring.aop.api.advice.TrackExecutionTime)")
 	public Object trackTime(ProceedingJoinPoint pjp) throws Throwable {
 		long stratTime=System.currentTimeMillis();
 		logger.info("Start:: Method name"+pjp.getSignature());
