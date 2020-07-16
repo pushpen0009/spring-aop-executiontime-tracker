@@ -16,7 +16,7 @@ import com.mytoshika.spring.aop.api.model.Product;
 public class ProductService {
 	
 	@Autowired
-	private Test test;
+	private DemoService demoService;
 
 	@PostConstruct
 	public void initDB() {
@@ -32,7 +32,7 @@ public class ProductService {
 	}
 
 	public List<Product> findAllProducts() {
-		test.display();
+		demoService.display("Display method is called");
 		return new ArrayList<>();	
 	}
 
